@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body >
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">project</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Hello,I'am [Adeel Nawaz]</h1>
+                <p>web developer | Designer  | Creator</p>
+                <br>
+             <a href="#contact " class="btn">Get in touch</a>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About me</h2>
+        <div class="about-container">
+            <img src="downloadaa.png" alt="profile picture of [your name]" class="profile-pic">
+        <div class="about-text">
+            <p>Lorem ipsum dolor sit, amet consectejgkdftur adipisicing elit. Ipsum harum totam non sapiente obcaecati iure!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit animi atque autem perferendis nisi iusto vitae accusamus quos commodi.</p>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>skills</h2>
+        <div class="skills-container">
+          <div class="skill" data-skill="90%">
+            <h3>HTML & CSS</h3>
+            <div class="progress-bar">
+              <div class="progress "></div>
+            </div>
+          </div>
+          <div class="skill" data-skill="80%">
+            <h3>javascript</h3>
+            <div class="progress-bar">
+              <div class="progress "></div>
+            </div>
+          </div>
+          <div class="skill" data-skill="75%">
+            <h3>react</h3>
+            <div class="progress-bar">
+              <div class="progress "></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <section id="projects">
+        <h2>projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>project 1</h3>
+                <p>description of project 1 This project involves...</p >
+                    <button class="btn " data -model="project 1">view details</button>
+            </div>
+
+
+            <div class="project-card">
+                <h3>project 2</h3>
+                <p>description of project 2 this project focuses on ...</p >
+                    <button class="btn " data -model="project 2">view details</button>
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+    <section id="contact">
+      <h2>Contact me</h2>
+      <form id="contact-form">
+        <lable for="name">name:</lable>
+        <input type="text" id="name" name="name" required>
+        <label for="email">email</label>
+        <input type="email" id="email" name="email" required>
+
+
+        <label for="message">message</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">send message</button>
+        <p id="confirmation" class="confirmation-message"></p>
+      </form>
+    </section>
+
+
+
+    <footer>
+      <p>&copy; 2024 my portfolia.all right reserved</p>
+      <div class="social-link">
+        <a href="https://twitter.com/yourprofile" target="_blank">twitter</a>
+        <a href="https://linkedin.com/yourprofile" target="_blank">LinkedIn</a>
+        <a href="https://github.com/yourprofile" target="_blank">github</a>
+      </div>
+    </footer>
+
+    <!-- modal 1 -->
+     <div id="modal-project1" class="modal">
+         <div class="modal-content">
+          <span class="close " data-modal="project1">&times;</span>
+          <h3>project 1 Details</h3>
+          <p>Here  you can  add more  detailed information about project 1</p>
+         </div> 
+     </div>
+
+ <!-- modal 2 -->
+ <div id="modal-project2" class="modal">
+  <div class="modal-content">
+   <span class="close " data-modal="project2">&times;</span>
+   <h3>project 2 Details</h3>
+   <p>Here  you can  add more  detailed information about project 2</p>
+  </div> 
+</div>
+
+
+<script src="script.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+</html>
